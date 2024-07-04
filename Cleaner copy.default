@@ -1,0 +1,19 @@
+{
+    "plex": {
+        "host": "127.0.0.1",
+        "port": "32400",
+        "token": "YOUR_PLEX_TOKEN"
+    },
+    "qBittorrent": {
+        "url": "http://localhost:8080",
+        "username": "admin",
+        "password": "adminadmin",
+        "min_ratio": 2.0,
+        "min_seed_time_days": 1
+    },
+    "discord_webhook_url": "YOUR_DISCORD_WEBHOOK_URL",
+    "keep_movies": ["Movie 1", "Movie 2"],
+    "keep_shows": ["Show 1", "Show 2"],
+    "days_to_keep": 30,
+    "test_mode": true
+}

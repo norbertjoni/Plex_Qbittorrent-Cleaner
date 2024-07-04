@@ -1,0 +1,61 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Custom for Visual Studio
+*.cs     diff=csharp
+
+# Standard to msysgit
+*.doc    diff=astextplain
+*.DOC    diff=astextplain
+*.docx   diff=astextplain
+*.DOCX   diff=astextplain
+*.dot    diff=astextplain
+*.DOT    diff=astextplain
+*.pdf    diff=astextplain
+*.PDF    diff=astextplain
+
+# Custom for Java
+*.java   diff=java
+
+# Custom for Go
+*.go     diff=go
+
+# Custom for Python
+*.py     diff=python
+
+# Image files
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.gif  binary
+*.ico  binary
+*.bmp  binary
+*.tif  binary
+*.tiff binary
+
+# Binary files
+*.exe  binary
+*.dll  binary
+*.lib  binary
+*.so   binary
+
+# Common binaries
+*.zip  binary
+*.tar  binary
+*.tar.gz binary
+*.gz   binary
+*.bz2  binary
+*.xz   binary
+*.rar  binary
+
+# Ignore IDE-specific files
+.idea/* text
+*.sln text
+*.csproj text
+*.vcxproj text
+
+# Ignore build artifacts
+build/* binary
+dist/* binary
+*.egg-info/ binary
+*.egg binary
